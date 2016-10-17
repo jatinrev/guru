@@ -1,0 +1,667 @@
+body{ margin: 0; padding: 0 }
+.all_pages_outr{ float: left; width: 100%   }
+.all_pages_inr{ float: none; margin:0 auto; max-width: 1276px; width: 100%  }
+.all_pages_cont{ float: left; width: 100%  }
+
+
+/* header css */
+.header_bg{ background-image: url(../images/header-bg.png); background-repeat: repeat; z-index: 99999; position: relative; }
+.header_search form input[type="text"]{ background-image: url(../images/search_icon.png); background-repeat: no-repeat; border: 0; background-color: #494A4F; background-position: 15px center; padding-left: 50px; color:#fff  }
+.header_menus ul {
+    margin: 0 35px;
+    padding: 0;
+}
+.header_menus ul li {
+    color: #fff;
+    display: inline;
+    list-style: outside none none; border-left: 1px solid #666;
+}
+.header_menus ul li:last-child{border-right: 1px solid #666;} 
+.header ul li a {
+    color: #fff;
+}
+.banner_section {
+    margin-top: -160px;
+}
+.banner_section img{ width: 100% }
+
+.logo img {
+    margin-bottom: -55px;
+    text-align: center;
+}
+
+.header_search{ /* margin-top: 15px; */ margin-top: 22px; }
+.header_menus .navbar-default{ background-color: transparent; border: 0; margin-bottom: 0 }
+.header_menus .navbar.navbar-default .navbar-nav a{ padding-left: 23px; padding-right: 23px; color: #fff;font-size: 18px;padding-bottom: 20px;padding-top: 20px; }
+.header_menus .navbar-nav .active{ }
+.header_menus  .navbar.navbar-default .navbar-nav .active a{background-color: transparent; }
+.header_menus  .navbar.navbar-default .navbar-nav a{ border-bottom:8px solid  transparent}
+.header_menus  .navbar.navbar-default .navbar-nav a:hover{ border-bottom:8px solid #6868C5; color:#6868C5 }
+.navbar-collapse.collapse.paddingleftright {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    
+}
+.container-fluid.paddingleftright{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* banner css */
+.banner_section{ position: relative; }
+.right_side_content {
+    padding: 0 !important;
+}
+.social_icon.courses {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+
+}
+.social_div {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.social_div {
+    border: 1px solid #ccc;
+    padding-bottom: 29.1px;
+    padding-top: 35px;
+    border-bottom-color:#6868C5; 
+}
+.social_icon .icon_img {
+    margin-left: 20px;
+    margin-top: 8px;
+    width: auto;
+}
+.social_icon p {
+    font-size: 36px;
+}
+.right_side_content{
+	background-color: #ccc;
+}
+.social_icon span {
+    font-size: 19px;
+}
+.banner_content_cont {
+    margin-top: 160px;
+    position: absolute;
+    top: 0;
+}
+.right_side_content {
+    margin-left: 32px;
+}
+.left_srch_section img {
+    display: block;
+    margin: 16% auto 0;
+    width: auto;
+}
+.social_div:nth-child(4){
+    border-bottom: 0;
+}
+/* how does it work section */
+.heading_tag h1 {
+    color: #6868c5;
+    padding-top: 65px;
+    text-align: right;
+}
+.paragraph_tag p {
+    color: #909090;
+    font-size: 18px;
+    line-height: 31px;
+    padding-top: 60px;
+}
+.nav.nav-tabs.both_heading {
+    padding-left: 40%;
+    padding-top: 3%;
+}
+.tab-content {
+    text-align: center;
+}
+.both_heading > li > a:nth-child(1) {
+    background-color: transparent !important;
+    border-left-color: transparent !important;
+    border-right-color: transparent !important;
+    border-top-color: transparent !important;
+    color: #000;
+    border-bottom: 10px solid #000;
+}
+.nav.nav-tabs.both_heading li {
+    font-size: 30px;
+}
+.register_side {
+    text-align: center;
+}
+.publish-side {
+    text-align: center;
+}
+.enrolled_bottom {
+    text-align: center;
+    padding-top: 80px;
+}
+.register_side p {
+    font-size: 16px;
+    
+}
+.publish-side p {
+    font-size: 16px;
+    
+}
+.enrolled_bottom p{
+    font-size: 16px;
+    
+    
+}
+.register_side > h2 {
+    font-weight: bold;
+}
+.publish-side > h2 {
+    font-weight: bold;
+}
+.enrolled_bottom > h2 {
+    font-weight: bold;
+}
+.second_row_dott_img > h2 {
+    font-weight: bold;
+}
+.dott_img{
+	float: left;
+    margin-top: 15%;
+    position: relative;
+    width: 100%;
+}
+.top_dott_img{
+	left: 33%;
+    position: absolute;
+    top: -86px;
+
+}
+.second_row_dott_img {
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.right_dott_img {
+    position: absolute;
+    right: 28%;
+    top: -85px;
+}
+.left_side_dott_div{
+    float: left;
+    position: relative;
+    width: 100%;
+}
+.left_dott_img {
+    bottom: 176px;
+    position: absolute;
+    right: 56%;
+}
+/* how does it banefit css */
+
+.how_does_it_benefit {
+    background: #3D4046 none repeat scroll 0 0;
+    
+    width: 100%;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.heading_tag_benfit h1{
+    color: #fff;
+    padding-top: 55px;
+    text-align: right;
+
+}
+.paragraph_tag_banefit ul li {
+    color: #fff;
+    font-size: 18px;
+    list-style-type: none;
+    padding-top: 10px;
+}
+
+.paragraph_tag_banefit ul li img {
+    padding-right: 10px;
+}
+.paddingtopbottom{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.paragraph_tag_banefit > ul {
+    padding-left: 0;
+}
+
+
+/*slider css*/
+
+
+.multi-item-carousel{
+  .carousel-inner{
+    > .item{
+      transition: 500ms ease-in-out left;
+    }
+    .active{
+      &.left{
+        left:-33%;
+      }
+      &.right{
+        left:33%;
+      }
+    }
+    .next{
+      left: 33%;
+    }
+    .prev{
+      left: -33%;
+    }
+    @media all and (transform-3d), (-webkit-transform-3d) {
+      > .item{
+        // use your favourite prefixer here
+        transition: 500ms ease-in-out all;
+        backface-visibility: visible;
+        transform: none!important;
+      }
+    }
+  }
+  .carouse-control{
+    &.left, &.right{
+      background-image: none;
+    }
+  }
+}
+
+// non-related styling:
+body{
+  background: #333;
+  color: #ddd;
+}
+h1{
+  color: white;
+  font-size: 2.25em;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  text-shadow: 0px 2px 0px rgba(0, 0, 0, 1);
+}
+/* slider css closed */
+
+/* about us css */
+.back_img {
+    background: rgba(0, 0, 0, 0) url("../images/about_us_bg.jpg") no-repeat scroll 0 0;
+    height: auto;
+}
+.aboutus_left_part > h1 {
+    color: #fff;
+    padding-top: 50px;
+}
+.aboutus_left_part > h1 {
+    color: #fff;
+    padding-left: 110px;
+    padding-top: 50px;
+    text-align: left;
+}
+.about_left_img_part > img {
+    padding-left: 92px;
+    padding-top: 40px;
+}
+.outr_aboutus {
+    background: url(../images/about_us_bg.jpg);
+    margin-top: 60px;
+}
+.about_left_para_part{
+	padding-left: 0;
+}
+.about_left_img_part {
+    padding-right: 0;
+}
+.about_left_para_part p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: -46px;
+    padding-top: 130px;
+    
+}
+.social_icons_part {
+    background-color:rgb(191, 191, 197); 
+    height: auto;
+    padding-bottom: 11px;
+    
+}
+.about_menu_part > ul > li {
+    font-size: 20px;
+    list-style-type: none;
+    padding-top: 13px;
+}
+.about_menu_part > ul {
+    padding-top: 89px;
+    padding-bottom: 14px;
+}
+.about_menu_part {
+    border-bottom: 1px solid grey;
+}
+.social_media_part > ul > li {
+    font-size: 20px;
+    list-style-type: none;
+    padding-top: 13px;
+}
+.social_media_part > ul {
+    padding-top: 10px;
+}
+.social_icon_part ul li {
+    display: inline;
+    font-size: 37px;
+    padding-left: 29px;
+}
+.social_icon_part > ul {
+    padding-left: 1px;
+}
+.social_icon_part ul li a {   
+    border: 1px solid transparent;
+    background-color: transparent;    
+    border-radius: 16px;    
+    color: #373737;
+    padding: 5px 15px;
+}
+.social_icon_part a:hover {
+    border: 1px solid #fff;
+    background-color: #6868c5;    
+    border-radius: 16px;    
+    color: #fff;
+    padding: 5px 15px;
+}
+.footer_part{
+	background-color: #3D4046;
+	height: 100px;
+}
+.left_copyright span {
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.right_logo {
+    top: 22px;
+}
+.left_copyright {
+    left: 28px;
+    top: 28px;
+}
+.about_menu_part img {
+    padding-right: 10px;
+}
+.social_media_part img{
+    padding-right: 10px;
+}
+.social_icon_part img:hover {
+    background-color: #6868c5;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    padding:10px;
+}
+.social_icon_part img {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 6px;    
+    padding:10px;
+}
+.social_icon_part img:hover {
+    background-image: url("../images/youtube.png");
+    background-repeat: no-repeat;
+    border: 1px solid #fff;
+    border-radius: 6px;
+    color: #fff;
+    padding-bottom: 2px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .banner_content_cont {
+        position: relative !important;   
+        top: 0 !important;
+        margin-top: 0 !important;
+}
+    .right_side_content {
+        margin-left: 0 !important;
+        padding: 0 !important;
+}
+    .heading_tag h1 {
+        text-align: center !important;
+}
+    .nav.nav-tabs.both_heading {
+        padding-left: 21% !important;
+}
+    .top_dott_img, .left_dott_img, .right_dott_img{
+        display: none !important;  
+}
+    .social_div{
+        text-align: center !important;
+}
+    .heading_tag_benfit h1{
+        text-align: center !important;
+}
+    .social_icon .icon_img {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+}
+    .about_left_img_part > img {
+        padding-left: 0;
+}   
+    .aboutus_left_part > h1 {
+        padding-left: 0;
+        text-align: center; 
+} 
+    .about_left_para_part p {    
+        margin-left: 0;
+        padding-top: 0;
+}  
+    .about_left_para_part p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 24px;
+} 
+    .outr_aboutus {
+        margin-bottom: 25px;
+} 
+    .left_copyright {   
+        top: 12px;
+}   
+    .right_logo {
+        top: 10px;
+}
+    .left_srch_section img {
+        display: block;
+        height: 76px !important;
+        margin: -87px auto 0;
+        width: auto;
+}
+    .social_icons_part {
+        margin-bottom: 90px;
+        margin-top: 50px;       
+}
+    .icons_part{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+}
+    .header_menus ul li:last-child {
+        border-right: none !important;
+}
+    .header_menus ul li {
+        border-left: none !important;
+}
+    .publish-side {
+        padding-top: 13% !important;
+}   
+
+}
+@media only screen and (max-width: 991px) {
+    .banner_content_cont {
+        position: relative !important;   
+        top: 0 !important;
+        margin-top: 0 !important;
+}
+    .right_side_content {
+        margin-left: 0 !important;
+        padding: 0 !important;
+}
+    .heading_tag h1 {
+        text-align: center !important;
+}
+    .nav.nav-tabs.both_heading {
+        padding-left: 21% !important;
+}
+    .top_dott_img, .left_dott_img, .right_dott_img{
+        display: none !important;  
+}
+    .social_div{
+        text-align: center !important;
+}
+    .heading_tag_benfit h1{
+        text-align: center !important;
+}
+    .social_icon .icon_img {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+}
+    .about_left_img_part > img {
+        padding-left: 0;
+}   
+    .aboutus_left_part > h1 {
+        padding-left: 0;
+        text-align: center; 
+} 
+    .about_left_para_part p {    
+        margin-left: 0;
+        padding-top: 0;
+}  
+    .about_left_para_part p {
+        color: #fff;
+        font-size: 14px;
+        line-height: 16px;
+        padding-bottom: 24px;
+} 
+    .outr_aboutus {
+        margin-bottom: 25px;
+} 
+    .left_copyright {   
+        top: 12px;
+}   
+    .right_logo {
+        top: 10px;
+}
+    .left_srch_section img {
+        display: block;
+        height: 76px;
+        margin: -87px auto 0;
+        width: auto;
+}
+    .social_icons_part {
+        margin-bottom: 90px;
+        margin-top: 50px;       
+}
+    .icons_part{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+}
+    .left_srch_section img {
+        margin: -23% auto 0 !important;
+}
+    .publish-side {
+        padding-top: 8%;
+} 
+    .about_left_img_part{
+        text-align: center;
+}
+
+}
+@media only screen and (max-width: 1338px) {
+    .header_menus ul {
+        margin: 0 9px;
+   
+}
+    .header_menus .navbar.navbar-default .navbar-nav a {
+        padding: 20px 10px;
+}
+    .social_icon .icon_img {
+        margin-left: 0;
+        
+}
+    .social_div{
+        padding-bottom: 0 !important;
+        padding-top: 6px !important;
+}
+    .top_dott_img {
+        left: 30%;       
+        top: -94px;
+}
+    .left_dott_img {        
+        right: 58%;
+}
+    .right_dott_img {      
+        right: 22%;
+      
+}
+    .heading_tag_benfit h1 {
+        padding-top: 36px;
+        text-align: center;
+}
+    .outr_aboutus {
+        margin-bottom: -90px;
+}
+    .about_left_para_part p {      
+        font-size: 15px;
+}
+    .social_icon p {
+        font-size: 26px;
+}
+    .social_icon span {
+        font-size: 14px;
+}
+    .left_srch_section img {
+        height: 112px;
+}
+    .left_dott_img {
+        bottom: 153px !important;        
+}
+    .left_dott_img {
+        right: 58% !important;
+}
+    .top_dott_img {
+        left: 33.5% !important;
+        top: -79px !important;
+}
+    .right_dott_img {
+          
+        top: -65px !important;
+}
+    .right_dott_img {
+        right: 26% !important;
+}
+    .heading_tag_benfit h1 {
+        padding-top: 57px !important;
+}
+
+@media only screen and (max-width: 1250px) {
+    .right_dott_img {
+        right: 26% !important;
+}
+    .top_dott_img {
+        left: 33.5% !important;
+        top: -116px !important;
+}
+}
+@media only screen and (max-width: 1100px) {
+    .right_dott_img {
+        right: 22% !important;
+}
+    .top_dott_img {
+        left: 28.5% !important;
+        top: -113px !important;
+}
+}
+
+@media only screen and (max-width: 1100px) {
+    .heading_tag_benfit h1 {
+        padding-top: 36px !important;
+}
+}
+
