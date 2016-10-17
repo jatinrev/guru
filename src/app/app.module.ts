@@ -6,11 +6,13 @@ import { RouterModule }   from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IndexComponent
+    IndexComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
@@ -20,11 +22,11 @@ import { IndexComponent } from './index/index.component';
       {
         path: '',
         component: IndexComponent
-      }/*,
+      },
       {
-        path: 'test',
-
-      }*/
+        path: 'contact-us',
+        component: ContactUsComponent
+      }
     ])
   ],
   providers: [],
