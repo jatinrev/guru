@@ -1,0 +1,294 @@
+/* top icon css */
+.left_top_icon_Para {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.left_top_icon_Para span {
+    display: inline-block;
+    text-align: center;
+}
+.left_top_icon_Para a{
+    color: #000;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.left_top_icon_Para img {
+    padding-right: 10px;
+}
+.col-md-12.col-xs-12.col-sm-12.welcome_text h1 {
+    color: #6868cf; 
+    text-shadow: none;
+    margin-bottom: 10px;
+}
+.welcome_text{
+	padding-bottom: 30px;
+	padding-top: 5px;
+    text-align: center;
+}
+.form_heading > h2{
+    padding-bottom: 30px;
+    padding-top: 25px;
+}
+/* form css */
+.table_main{
+    padding-right: 0 !important;
+    padding-left:0 !important;
+}
+.stu_name_side input {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+}
+/* .select_Stu > a {
+    background-color: #6868c5;
+    border-radius: 14px;
+    color: #fff;
+    float: left;
+    padding: 23px;
+    text-decoration: underline;
+    border-radius: 0 14px 14px 0;
+    padding: 20px 40px !important;
+    font-size: 20px !important;
+} */
+.select_Stu{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    color: #fff;
+    border-color: #6868c5 !important;
+}
+.select_Stu {
+    background: #6868c5 none repeat scroll 0 0;
+    border: 1px solid;
+    font-size: 19px;
+    text-align: center;
+    text-decoration: underline;
+    height: 68px;
+    border-bottom-right-radius: 17px;
+    border-top-right-radius: 17px;
+}
+.table_main {
+    padding-bottom: 15px;
+}
+.select_Stu > a{
+    color: #fff;
+    display: inline-table;
+    padding-top: 20px;
+    text-align: center;
+    text-decoration: underline !important;
+}   
+.select_Stu > a:hover{
+    color:#fff;
+}
+.stu_name_side{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.form_section{
+	padding-bottom: 30px;
+}
+.form_heading h2{
+	color: #6868c5;
+}
+.stu_list_heading{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.text_field{
+	height: 68px !important;
+	border-radius: 20px !important;
+	font-size: 18px !important;
+}
+.text_area{
+	border-radius: 20px !important;
+    font-size: 18px !important;	
+}
+.btn_sec{
+	text-align: center !important;
+
+}
+.save_btn {
+    background-color: transparent !important;
+    border-color: #919191 !important;
+    border-radius: 0 !important;
+    color:#808080 !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+}
+.send_btn{
+    background-color: #6868c5 !important;
+    border-color: #3d4046;
+    border-radius: 0 !important;
+    color:#fff !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+    padding: 0 46px !important;
+    margin: 5px 5px !important;	
+}
+/* student list css */
+
+.stu_list_heading h2 {
+    color: #6868c5;
+}
+.stu_list_data {
+    border: 1px solid #ccc;
+    border-radius: 23px;
+    height: auto;
+}
+.srch_head{
+	text-align: center;
+}
+.srch_head input {
+    border:none;
+    border-bottom: 1px solid #6868c5;
+    font-size: 18px;
+    padding-bottom: 12px;
+    padding-left: 44px;
+    padding-top: 25px;
+    width: 40%;
+    color: #6868c5;
+}
+.stu_tabl {
+    padding-top: 50px;
+}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid #a9a9a9; */
+    border-radius:;
+    width: 1em;
+    height: 1em;
+    float: left;
+    margin-right: .5em;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+.stu_id {
+    font-size: 26px;
+    font-weight: 100;
+    padding-top: 8px;
+}
+.font_colr{
+    color: #545454;
+}
+.stu_list{
+    padding-bottom: 30px;
+}
+.bg_colr{
+    background-color: #EAEAEA;
+    border-bottom: 3px solid #fff;
+}
+.bodr_leftright {
+    border-left: 1px solid;
+    text-align: center;
+}
+.drop_btn_section{
+    text-align: center;
+}
+.DROP_btn{  
+    background-color: #6868c5 !important;
+    border-color: #3d4046;
+    border-radius: 0 !important;
+    color:#fff !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+    padding: 0 20px !important;
+    margin: 5px 5px !important; 
+}
+.srch_head input[type="text"] {
+    background-image: url("../assets/images/search_left.png");
+    background-repeat: no-repeat;
+    background-position: 10px 28px;
+}
+
+/* form second section */
+.stu_list_heading2 h2 {
+    color: #6868c5;
+}
+.stu_list_heading2{
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.enroll_btn{  
+    background-color: #6868c5 !important;
+    border-color: #3d4046;
+    border-radius: 0 !important;
+    color:#fff !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+    padding: 0 112px !important;
+    margin: 35px 5px !important; 
+}
+.enroll_btn_section{
+    text-align: center;
+}
+/* add a student section */
+.add_stu h2 {
+    color: #6868c5;
+    padding-bottom: 25px;
+}
+@media screen and (max-width: 475px){
+.select_Stu{
+    font-size: 14px !important;
+    }
+.bodr_leftright label{
+    font-size: 16px !important;
+    }
+.checkbox.font_colr label {
+    font-size: 16px !important;
+}
+}
+
+@media screen and (max-width: 357px){
+.select_Stu i{
+    font-size: 10px !important;
+}
+}

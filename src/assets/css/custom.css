@@ -4,11 +4,20 @@ body{ margin: 0; padding: 0 }
 .all_pages_cont{ float: left; width: 100%  }
 
 
+/***Start : common css***/
+
+
+
+
+
+/****End : common css****/
+
+
 /* header css */
 .header_bg{ background-image: url(../images/header-bg.png); background-repeat: repeat; z-index: 99999; position: relative; }
-.header_search form input[type="text"]{ background-image: url(../images/search_icon.png); background-repeat: no-repeat; border: 0; background-color: #494A4F; background-position: 15px center; padding-left: 50px; color:#fff  }
+.header_search form input[type="text"]{ background-image: url(../images/search_icon.png); background-repeat: no-repeat; border: 0; margin-top:18px;background-color: #494A4F; background-position: 15px center; padding-left: 50px; color:#fff  }
 .header_menus ul {
-    margin: 0 35px;
+    //margin: 0 35px;
     padding: 0;
 }
 .header_menus ul li {
@@ -23,30 +32,31 @@ body{ margin: 0; padding: 0 }
 .banner_section {
     margin-top: -160px;
 }
-.banner_section img{ width: 100% }
+.banner_section img{ width: 100%; }
+.banner_section img.banner-section-img{height:775px;}
 
 .logo img {
     margin-bottom: -55px;
     text-align: center;
 }
 
-.header_search{ /* margin-top: 15px; */ margin-top: 22px; }
+.header_search{ /* margin-top: 15px; */ margin-top: 2px; }
 .header_menus .navbar-default{ background-color: transparent; border: 0; margin-bottom: 0 }
-.header_menus .navbar.navbar-default .navbar-nav a{ padding-left: 23px; padding-right: 23px; color: #fff;font-size: 18px;padding-bottom: 20px;padding-top: 20px; }
+.header_menus .navbar.navbar-default .navbar-nav a{ padding-left: 30px; padding-right: 32.5px; color: #fff;font-size: 20px;padding-bottom: 20px;padding-top: 20px; }
 .header_menus .navbar-nav .active{ }
 .header_menus  .navbar.navbar-default .navbar-nav .active a{background-color: transparent; }
 .header_menus  .navbar.navbar-default .navbar-nav a{ border-bottom:8px solid  transparent}
 .header_menus  .navbar.navbar-default .navbar-nav a:hover{ border-bottom:8px solid #6868C5; color:#6868C5 }
 .navbar-collapse.collapse.paddingleftright {
-    padding-left: 0 !important;
+    padding-left: 18px !important;
     padding-right: 0 !important;
     margin-left: 0 !important;
     margin-right: 0 !important;
     
 }
 .container-fluid.paddingleftright{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
+    /*padding-left: 0 !important;
+    padding-right: 0 !important;*/
 }
 
 /* banner css */
@@ -89,12 +99,14 @@ body{ margin: 0; padding: 0 }
     top: 0;
 }
 .right_side_content {
-    margin-left: 32px;
+    /*margin-left: 32px;*/
 }
 .left_srch_section img {
-    display: block;
-    margin: 16% auto 0;
-    width: auto;
+    display: inline-block;
+    margin: 16% auto 0 0 ;
+    /*width: auto;*/
+    width:initial;
+    max-width: 100%;
 }
 .social_div:nth-child(4){
     border-bottom: 0;
@@ -102,8 +114,9 @@ body{ margin: 0; padding: 0 }
 /* how does it work section */
 .heading_tag h1 {
     color: #6868c5;
-    padding-top: 65px;
+    padding-top: 57px;
     text-align: right;
+    text-shadow: 0px 0px 0px;
 }
 .paragraph_tag p {
     color: #909090;
@@ -207,8 +220,8 @@ body{ margin: 0; padding: 0 }
 }
 .heading_tag_benfit h1{
     color: #fff;
-    padding-top: 55px;
-    text-align: right;
+    padding-top: 35px;
+    text-align: center;
 
 }
 .paragraph_tag_banefit ul li {
@@ -297,10 +310,11 @@ h1{
     padding-left: 110px;
     padding-top: 50px;
     text-align: left;
+    margin-bottom: 1rem;
 }
 .about_left_img_part > img {
     padding-left: 92px;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 .outr_aboutus {
     background: url(../images/about_us_bg.jpg);
@@ -310,15 +324,19 @@ h1{
 	padding-left: 0;
 }
 .about_left_img_part {
-    padding-right: 0;
+    /*padding-right: 0;*/
+    padding-top:30px;
 }
 .about_left_para_part p {
     color: #fff;
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
-    margin-left: -46px;
-    padding-top: 130px;
+    padding-top: 70px;
     
+}
+.padding-nil{
+    padding-left:0px;
+    padding-right:0px;
 }
 .social_icons_part {
     background-color:rgb(191, 191, 197); 
@@ -419,6 +437,7 @@ h1{
         top: 0 !important;
         margin-top: 0 !important;
 }
+
     .right_side_content {
         margin-left: 0 !important;
         padding: 0 !important;
@@ -499,6 +518,15 @@ h1{
         top: 0 !important;
         margin-top: 0 !important;
 }
+.container-fluid.paddingleftright{
+    /*padding:0px !important;*/
+}
+.navbar-collapse.collapse.paddingleftright{
+     /*padding:0px !important;*/
+}
+.banner_section img.banner-section-img{
+    height: auto;
+}
     .right_side_content {
         margin-left: 0 !important;
         padding: 0 !important;
@@ -507,7 +535,7 @@ h1{
         text-align: center !important;
 }
     .nav.nav-tabs.both_heading {
-        padding-left: 21% !important;
+        padding-left: 30% !important;
 }
     .top_dott_img, .left_dott_img, .right_dott_img{
         display: none !important;  
@@ -543,10 +571,12 @@ h1{
         margin-bottom: 25px;
 } 
     .left_copyright {   
-        top: 12px;
+            top: 39px;
+    float: left;
 }   
     .right_logo {
-        top: 10px;
+        top: 20px;
+        float: right;
 }
     .left_srch_section img {
         display: block;
@@ -609,6 +639,9 @@ h1{
 }
     .about_left_para_part p {      
         font-size: 15px;
+        text-align: center;
+        width: 100%;
+        display: inline-block;
 }
     .social_icon p {
         font-size: 26px;
@@ -639,6 +672,7 @@ h1{
     .heading_tag_benfit h1 {
         padding-top: 57px !important;
 }
+}
 
 @media only screen and (max-width: 1250px) {
     .right_dott_img {
@@ -663,5 +697,9 @@ h1{
     .heading_tag_benfit h1 {
         padding-top: 36px !important;
 }
+}
+
+img{
+    max-width:100%;
 }
 

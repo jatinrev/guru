@@ -9,12 +9,16 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { StudentListComponent } from './student-list/student-list.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    StudentListComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +34,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
       {
         path: 'contact-us',
         component: ContactUsComponent
+      },
+      {
+        path: 'student-list',
+        component: StudentListComponent
+      },
+      {
+        path: 'user-profile',
+        component: UserProfileComponent
       }
     ])
   ],
