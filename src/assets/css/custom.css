@@ -4,6 +4,15 @@ body{ margin: 0; padding: 0 }
 .all_pages_cont{ float: left; width: 100%  }
 
 
+/***Start : common css***/
+
+
+
+
+
+/****End : common css****/
+
+
 /* header css */
 .header_bg{ background-image: url(../images/header-bg.png); background-repeat: repeat; z-index: 99999; position: relative; }
 .header_search form input[type="text"]{ background-image: url(../images/search_icon.png); background-repeat: no-repeat; border: 0; margin-top:18px;background-color: #494A4F; background-position: 15px center; padding-left: 50px; color:#fff  }
