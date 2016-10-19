@@ -2,6 +2,11 @@
 	padding-bottom: 25px;
 	padding-top: 25px;
 }
+.left_top_icon_Para span {
+    display: inline-block;
+    text-align: center;
+    text-decoration: underline;
+}
 .left_top_icon_Para a{
     color: #000;
     font-size: 19px;
@@ -148,6 +153,7 @@
 @media screen and (max-width: 991px){
 .profile_pic {
     text-align: center !important;
+    padding-left: 0 !important;
 }
 .para_btn h1 {
     text-align: center !important;
@@ -155,4 +161,20 @@
 .para_btn{
 	text-align: center;
 }
+.profile_pic img{
+	padding-left: 0 !important;
+}
+.profile_text{
+	text-align: center;
+}
+}
+@media screen and (max-width: 400px){
+.para_btn h1 {
+	font-size: 25px !important;
+}
+}
+@media screen and (max-width: 1200px){
+.para_btn h1{
+    font-size: 28px;
+	}
 }
