@@ -6,6 +6,7 @@
 .left_top_icon_Para span {
     display: inline-block;
     text-align: center;
+    text-decoration: underline;
 }
 .left_top_icon_Para a{
     color: #000;
