@@ -1,0 +1,121 @@
+/* top icon css */
+.left_top_icon_Para {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.left_top_icon_Para span {
+    display: inline-block;
+    text-align: center;
+}
+.left_top_icon_Para a{
+    color: #000;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.left_top_icon_Para img {
+    padding-right: 10px;
+}
+.col-md-12.col-xs-12.col-sm-12.welcome_text h1 {
+    color: #6868cf; 
+    text-shadow: none;
+    
+}
+.welcome_text{
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+/* tab css */
+
+
+.three_tabs {
+    padding-bottom: 25px;
+    padding-top: 30px;
+}
+.three_tabs ul { 
+    padding-left: 11%;
+}
+.three_tabs ul li a{
+	border:none !important;
+	border-bottom: 1px solid #E0E0E0 !important;
+	font-size: 30px;
+	color: #bfbfbf;
+}
+.three_tabs li {
+    padding: 0 40px;
+}
+/* sort by css */
+.sort-by{
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top: 20px;
+}
+.sort-by label {
+    color: #6868c5;
+    font-size: 25px;
+    font-weight: 100;
+}
+.sort-by input {
+    border:none;
+    border-bottom: 1px solid #bfbfbf;
+    text-align: center;
+    font-size: 27px;
+    width: 31%;
+    font-family: helvetica;
+    padding-left: 15px;
+    padding-right: 25px;
+    color: #c2c2c2;
+
+}
+.sort-by > img {
+    margin-left: -20px;
+}
+/* classes part css */
+.class_data {
+    border: 1px solid #DCDCDC;
+    height: auto;
+    left: 10%;
+    margin-left: 15px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.three_classes_part{
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+.class_data h2 {
+    font-size: 24px;
+    font-weight: 100;
+    text-align: center;
+    color: #6868c5;
+}
+.icon_part {
+    background-color: #e9e9e9;
+    font-size: 20px;
+    margin-top: 3px;
+}
+.icon_part > img{
+	padding-left: 12px;
+}
+.scroll_for_more p{
+	text-align: center;
+	color: #bfbfbf;
+	padding-top: 20px;
+	font-size: 25px;
+}
+.icon_part > span {
+    display: inline-block;  
+    color: #c2c2c2; 
+}
+.scroll_for_more {
+    text-align: center;
+}
+.scroll_for_more > img {
+    padding-bottom: 20px;
+}
+@media screen and (max-width: 768px){
+    .three_tabs ul {
+    border: medium none !important;
+    padding-left: 11%;
+}
+}
+
