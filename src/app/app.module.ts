@@ -9,13 +9,15 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { StudentListComponent } from './student-list/student-list.component';
+import { UserProfileComponent } from './user-profile/user-profile.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IndexComponent,
     ContactUsComponent,
-    StudentListComponent
+    StudentListComponent,
+    UserProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -34,6 +36,10 @@ import { StudentListComponent } from './student-list/student-list.component';
       {
         path: 'student-list',
         component: StudentListComponent
+      },
+      {
+        path: 'user-profile',
+        component: UserProfileComponent
       }
     ])
   ],
