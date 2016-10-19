@@ -93,10 +93,30 @@ body{ margin: 0; padding: 0 }
 .social_icon span {
     font-size: 19px;
 }
-.banner_content_cont {
-    margin-top: 160px;
+.top-head-menus {
+    padding: 0;
+}
+.row.header.top-head {
+    margin: 0 auto;
+}
+.collapse.navbar-collapse.paddingleftright.no-padding {
+    padding: 0 !important;
+}
+.no-padding .nav .active > a {
+    padding: 20px 44px !important;
+}
+.banner_content_cont.main-cont {
+    display: inline-block;
+    float: none;
+    margin: 160px auto;
+    max-width: 1276px;
     position: absolute;
     top: 0;
+}
+.banner_content_cont{
+    position: absolute;
+    margin-top: 160px;
+    top: 0px; 
 }
 .right_side_content {
     /*margin-left: 32px;*/
