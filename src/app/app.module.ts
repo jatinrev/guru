@@ -12,6 +12,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
+import { GuruManageClassComponent } from './guru-manage-class/guru-manage-class.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { StudentDetailComponent } from './student-detail/student-detail.componen
     ContactUsComponent,
     StudentListComponent,
     UserProfileComponent,
-    StudentDetailComponent
+    StudentDetailComponent,
+    GuruManageClassComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +50,10 @@ import { StudentDetailComponent } from './student-detail/student-detail.componen
       {
         path: 'student-detail',
         component: StudentDetailComponent
+      },
+      {
+        path: 'guru-manage-class',
+        component: GuruManageClassComponent
       }
     ])
   ],
