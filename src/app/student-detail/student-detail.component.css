@@ -1,0 +1,218 @@
+/* left icon para css */
+.left_top_icon_Para {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.left_top_icon_Para span {
+    display: inline-block;
+    text-align: center;
+    text-decoration: underline;
+}
+.left_top_icon_Para a{
+    color: #000;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.left_top_icon_Para img {
+    padding-right: 10px;
+}
+/* back icon css */
+.back_icon_part {
+    padding-top: 30px;
+}
+.back_icon_part a {
+    color: #bababa;    
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 12px;
+    text-decoration: none;
+}
+.back_icon_part > img {
+    padding-bottom: 12px;
+}
+.detail_page_hr hr {
+    border-color: #949494;
+}
+	/*calender and info part  */
+.cls_name_calender_sec {
+    padding-top: 40px;
+}	
+.cls_name_info_part h1 {
+    color: #6868c5;
+    text-align: left;
+    text-shadow: none;
+    margin-bottom: 10px;
+}
+.short_info_div p {
+    color: #818181;
+    font-size: 21px;
+    line-height: 28px;
+    word-spacing: 5px;
+}
+.short_info_div > span {
+    color: #6868c5;
+    font-size: 22px;
+    font-weight: bold;
+}
+.short_info_div {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+/* form_part section css */
+.form_part_section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+/* bg img css */
+.bg_img {
+    background-image: url("../assets/images/profile_name_bg.png");
+    height: 180px;
+    background-repeat: no-repeat;
+}
+.bg_img > span {
+    color: #fff;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.bg_img h2 {
+    padding-left: 22px;
+    padding-top: 22px;
+}
+
+/* social icon css */
+.social_icon_sec ul {
+    padding-left: 5px;
+    padding-top: 6px;
+}
+.social_icon_sec ul li {
+    display: inline;
+    padding: 0 34px;
+}
+.social_icon_sec ul li a {
+    color: #D7D8DD;
+    font-size: 20px;
+}
+.social_icon_sec ul li a:hover{
+	color: #A64344;
+} 
+/* form css */
+.font_colr .fa-check::before {
+    color: #429db6 !important;
+}
+.plcholdr_colr::-moz-placeholder {
+    color: #1E4569 !important;
+}
+.plcholdr_colr::-webkit-input-placeholder{
+    color: #1E4569 !important;	
+}
+.form_width{
+	width: 100% !important;
+}
+.input-group.form_width{
+	padding-top: 10px;
+}
+.checkbox label:after, 
+.radio label:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.checkbox .cr,
+.radio .cr {
+    position: relative;
+    display: inline-block;
+    /* border: 1px solid #a9a9a9; */
+    border-radius:;
+    width: 1.6em;
+    height: 1.2em;
+    float: left;
+    margin-right: .5em;
+    background: #fff;
+    margin-top: 0;
+    border: 1px solid #ccc;
+}
+
+.radio .cr {
+    border-radius: 50%;
+}
+.checkbox .cr .cr-icon,
+.radio .cr .cr-icon {
+    position: absolute;
+    font-size: .8em;
+    line-height: 0;
+    top: 50%;
+    left: 20%;
+}
+
+.radio .cr .cr-icon {
+    margin-left: 0.04em;
+}
+
+.checkbox label input[type="checkbox"],
+.radio label input[type="radio"] {
+    display: none;
+}
+.checkbox label input[type="checkbox"] + .cr > .cr-icon,
+.radio label input[type="radio"] + .cr > .cr-icon {
+    transform: scale(3) rotateZ(-20deg);
+    opacity: 0;
+    transition: all .3s ease-in;
+}
+
+.checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,
+.radio label input[type="radio"]:checked + .cr > .cr-icon {
+    transform: scale(1) rotateZ(0deg);
+    opacity: 1;
+}
+
+.checkbox label input[type="checkbox"]:disabled + .cr,
+.radio label input[type="radio"]:disabled + .cr {
+    opacity: .5;
+}
+.paddingleft{
+	padding-left: 0 !important;
+}
+.paddingright{
+	padding-right: 0 !important;
+}
+.input-group.bordernone input {
+    border: 0 none !important;
+    box-shadow: none !important;
+}
+.input-group.form_width input{
+	font-size: 18px;
+}
+.rightaddon{
+	padding: 6px 20px !important;
+}
+/* percentage meter css */
+.perc_metr span {
+    font-size: 24px;
+    color: #515254;
+}
+.perc_metr img {
+    padding-top: 20px;
+}
+/* map img css */
+.map_img {
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+@media screen and (max-width: 991px){
+	.checkbox_div .checkbox .cr,
+.radio .cr {
+	margin-bottom: -9px !important;
+	margin-top: 10px !important;
+}
+}
+@media screen and (max-width: 768px){
+.perc_metr {
+    padding-top: 25px !important;
+}
+}
+@media screen and (max-width: 362px){
+	.social_icon_sec ul li {
+    padding: 0 26px;
+}
+}
