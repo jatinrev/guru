@@ -11,6 +11,7 @@ import { IndexComponent } from './index/index.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { StudentListComponent } from './student-list/student-list.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
+import { StudentDetailComponent } from './student-detail/student-detail.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
     IndexComponent,
     ContactUsComponent,
     StudentListComponent,
-    UserProfileComponent
+    UserProfileComponent,
+    StudentDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -42,6 +44,10 @@ import { UserProfileComponent } from './user-profile/user-profile.component';
       {
         path: 'user-profile',
         component: UserProfileComponent
+      },
+      {
+        path: 'student-detail',
+        component: StudentDetailComponent
       }
     ])
   ],
