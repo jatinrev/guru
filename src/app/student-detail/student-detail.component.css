@@ -196,8 +196,11 @@
 }
 /* map img css */
 .map_img {
-    padding-bottom: 60px;
-    padding-top: 50px;
+   
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 25px;
+    width: 100%;
 }
 @media screen and (max-width: 991px){
 	.checkbox_div .checkbox .cr,

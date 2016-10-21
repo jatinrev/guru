@@ -1,0 +1,282 @@
+/* top icon css */
+.left_top_icon_Para {
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.left_top_icon_Para span {
+    display: inline-block;
+    text-align: center;
+    text-decoration: underline;
+}
+.left_top_icon_Para a{
+    color: #000;
+    font-size: 19px;
+    text-decoration: underline;
+}
+.left_top_icon_Para img {
+    padding-right: 10px;
+}
+/* heading css */
+.col-md-12.col-xs-12.col-sm-12.welcome_text h1 {
+    color: #6868cf; 
+    text-shadow: none;
+    margin-bottom: 10px;
+}
+.welcome_text{
+	padding-bottom: 30px;
+	padding-top: 5px;
+    text-align: center;
+}
+.form_heading > h2{
+    padding-bottom: 30px;
+    padding-top: 25px;
+    font-size: 
+}
+/* form css */
+.text_field{
+	height: 68px !important;
+	border-radius: 20px !important;
+	font-size: 18px !important;
+
+}
+.text_area{
+	border-radius: 20px !important;
+    font-size: 18px !important;	
+    line-height: 30px;
+    padding: 33px 13px;
+    color: #787878;
+}
+/* location, time & date , time & frequency css */
+/* time and frequency css */
+
+.start_end_date {
+    background-color: #6868c5;
+    border: 1px solid;
+    height: 300px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.time_and_frequency {
+    background-color: #6868c5;
+    border: 1px solid;
+    height: auto;
+    padding-bottom: 30px;
+}
+.time_and_frequency h3 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+/* radio buttn css */
+label.btn span {
+  font-size: 1.5em ;
+}
+
+label input[type="radio"] ~ i.fa.fa-circle-o{
+    color: #c8c8c8;    display: inline;
+}
+label input[type="radio"] ~ i.fa.fa-dot-circle-o{
+    display: none;
+}
+label input[type="radio"]:checked ~ i.fa.fa-circle-o{
+    display: none;
+}
+label input[type="radio"]:checked ~ i.fa.fa-dot-circle-o{
+    color: #7AA3CC;    display: inline;
+}
+label:hover input[type="radio"] ~ i.fa {
+color: #7AA3CC;
+}
+
+label input[type="checkbox"] ~ i.fa.fa-square-o{
+    color: #c8c8c8;    display: inline;
+}
+label input[type="checkbox"] ~ i.fa.fa-check-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-square-o{
+    display: none;
+}
+label input[type="checkbox"]:checked ~ i.fa.fa-check-square-o{
+    color: #7AA3CC;    display: inline;
+}
+label:hover input[type="checkbox"] ~ i.fa {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label.active{
+    color: #7AA3CC;
+}
+
+
+div[data-toggle="buttons"] label {
+display: inline-block;
+padding: 6px 12px;
+margin-bottom: 0;
+font-size: 14px;
+font-weight: normal;
+line-height: 2em;
+text-align: left;
+white-space: nowrap;
+vertical-align: top;
+cursor: pointer;
+background-color: none;
+border: 0px solid 
+#c8c8c8;
+border-radius: 3px;
+color: #c8c8c8;
+-webkit-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+-o-user-select: none;
+user-select: none;
+}
+
+div[data-toggle="buttons"] label:hover {
+color: #7AA3CC;
+}
+
+div[data-toggle="buttons"] label:active, div[data-toggle="buttons"] label.active {
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+.btn > input {
+    display: none !important;
+}
+.btn-group.btn-group-vertical li {
+    display: inline !important;
+    list-style-type: none !important;
+    
+}
+.colrwhite{
+    color: #fff !important;
+    padding-left: 5px;
+}
+/* drop down buttns css */
+.drop_btn.btn.btn-danger.dropdown-toggle {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    border-radius: 0 !important;
+    color: grey !important;
+    font-size: 20px !important;
+   
+}
+.paddingleftright {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.timer_btn {
+    background-color: #fff;
+    padding: 10px 0;
+    margin-left: 20px
+}
+.days_btn {
+    background: #fff none repeat scroll 0 0;
+    padding: 10px 0;
+}
+   .timer_btn input[type="text"]{ border: 0; background-color:; box-shadow: none; border-bottom: 1px solid #A5A5A5; text-align: center; color: #fff }
+    .days_btn input[type="text"]{ border: 0; background-color:; box-shadow: none; text-align: center; color: #fff }
+.paddingleft{
+    padding-left: 10px;
+}
+.font_size{
+    font-size: 20px;
+
+}
+
+/* start end date css */
+.start_date {
+    border-bottom: 1px solid;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.start_end_date h4 {
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 15px;
+    padding-top: 14px;
+}
+.paddingleft2{
+    padding-left: 0!important;
+}
+.start_div {
+    padding-bottom: 25px;
+}
+.end_div{
+    padding-top: 25px;
+}
+
+
+
+
+
+/* location css */
+
+    
+
+.location_map{
+    background-color: #6868c5;
+    height: 567px;
+}
+.location_map h3 {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+}
+.location_text{
+	height: 68px !important;
+	border-radius: 20px !important;
+	font-size: 18px !important;
+	background: #6868c5 none repeat scroll 0 0;
+    border-color: #fff;
+}
+.location_text::-moz-placeholder {
+    color: #F7F7Fb;
+}
+.location_text::-webkit-input-placeholder{
+	color: #F7F7Fb;
+}
+/* back and next btn css */
+.bac_btn {
+    background-color: transparent !important;
+    border-color: #919191 !important;
+    border-radius: 0 !important;
+    color:#808080 !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+    padding: 0 30px !important;
+}
+.next_btn{
+    background-color: #6868c5 !important;
+    border-color: #3d4046;
+    border-radius: 0 !important;
+    color:#fff !important;
+    font-size: 18px !important;
+    height: 51px !important;
+    width: auto !important;
+    padding: 0 28px !important;
+    margin: 5px 5px !important; 
+}
+.bac_nex_btn{
+    text-align: center;
+}
+.bac_nex_btn {
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:360px ){
+    .extra{
+        display: none !important;
+}
+    .font_size{
+        font-size: 14px !important;
+}
+    .col-md-2.col-xs-2.paddingleftright.font_size {
+        padding-left: 18px !important;
+        padding-top: 6px !important;
+}
+}
+
