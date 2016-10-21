@@ -30,7 +30,7 @@ import { GuruManageClassComponent } from './guru-manage-class/guru-manage-class.
     FormsModule,
     HttpModule,
     AlertModule,
-    NgbModule,
+    NgbModule.forRoot(),
     MaterialModule.forRoot(),
     RouterModule.forRoot([
       {
