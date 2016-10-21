@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { MaterialModule } from '@angular/material';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
@@ -29,6 +30,7 @@ import { GuruManageClassComponent } from './guru-manage-class/guru-manage-class.
     FormsModule,
     HttpModule,
     AlertModule,
+    NgbModule.forRoot(),
     MaterialModule.forRoot(),
     RouterModule.forRoot([
       {
