@@ -451,7 +451,79 @@ h1{
     color: #fff;
     padding-bottom: 2px;
 }
+/* modal section css */
 
+.modl_welcm_txt {
+    font-size: 35px;
+    margin-bottom: 29px;
+    text-shadow: none;
+}
+.modal-header.modl_head {
+    background-color: #6868c5;
+}
+.modl_full_width {
+    padding-bottom: 15px !important;
+    padding-top: 25px !important;
+}
+.modl_full_width input {    
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #BCBCBC !important;    
+    box-shadow: none !important;    
+    text-align: center !important;
+    font-size: 15px !important;
+
+}
+.modl_half_width1{
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    padding-left: 0!important;
+
+}
+.modl_half_width2{
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    padding-right: 0!important;
+}  
+
+.modl_half_width2 input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #BCBCBC !important;    
+    box-shadow: none !important;   
+    font-size: 15px !important;
+    padding-left: 0!important;
+}
+.modl_half_width1 input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #BCBCBC !important;    
+    box-shadow: none !important;   
+    font-size: 15px !important;
+    padding-left: 0!important;
+}
+.paddingtop{
+    padding-top: 15px;
+}
+
+.paddingbotm{
+    padding-bottom: 15px;
+}
+.next_step_btn button {
+    background-color: #6868c5;
+    border: medium none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 16px 30px;
+}
+.next_step_btn {
+    padding-bottom: 20px;
+    text-align: center;
+}
+.modal-footer.bordernone{
+    border:none !important;
+}
 
 @media only screen and (max-width: 768px) {
     .banner_content_cont {
