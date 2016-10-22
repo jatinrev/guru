@@ -147,7 +147,7 @@ body{ margin: 0; padding: 0 }
     padding-top: 60px;
 }
 .nav.nav-tabs.both_heading {
-    padding-left: 40%;
+    padding-left: 39%;
     padding-top: 3%;
 }
 .tab-content {
@@ -232,7 +232,20 @@ body{ margin: 0; padding: 0 }
     right: 56%;
 }
 /* how does it banefit css */
-
+.padngleftrgttop{
+    padding-left: 0!important;
+    padding-right: 0!important;    
+}
+.padngleftrgt.para_ptop {
+    padding-top: 10px;
+    padding-left: 0px !important;
+}
+.padngleftrgttop.spn_ptop {
+    padding-top: 5px;
+}
+.paragraph_tag_banefit{
+    padding-left: 0;
+}
 .how_does_it_benefit {
     background: #3D4046 none repeat scroll 0 0;
     
@@ -250,8 +263,10 @@ body{ margin: 0; padding: 0 }
     color: #fff;
     font-size: 18px;
     list-style-type: none;
-    padding-top: 10px;
+    
 }
+
+
 
 .paragraph_tag_banefit ul li img {
     padding-right: 10px;
@@ -517,6 +532,10 @@ h1{
     font-weight: bold;
     padding: 16px 30px;
 }
+.next_step_btn button:hover {
+    background-color: #6868c5 !important;
+    border-color: #6868c5 !important;
+}
 .next_step_btn {
     padding-bottom: 20px;
     text-align: center;
@@ -621,6 +640,10 @@ h1{
     position: relative;
     text-align: center;
     left: -26px;
+}
+.nav.nav-tabs.both_heading {
+    padding-left: 30% !important;
+   
 }
 
 }
@@ -806,16 +829,16 @@ h1{
         left: 33.5% !important;
         top: -116px !important;
 }
-.left_srch_section img {
+    .left_srch_section img {
         display: block;
         height: 76px;
         margin: -127px auto 0;
         width: auto;
 }
-.banner_section img.banner-section-img {
-    height: 334px;
+    .banner_section img.banner-section-img {
+        height: 334px;
 }
-.right_side_content{
+    .right_side_content{
     
 }
 }
@@ -827,16 +850,36 @@ h1{
         left: 28.5% !important;
         top: -113px !important;
 }
-}
+    .nav.nav-tabs.both_heading {
+        padding-left: 36% !important;
 
+}
+}
 @media only screen and (max-width: 1100px) {
     .heading_tag_benfit h1 {
         padding-top: 36px !important;
 }
+
+
+    img{
+        max-width:100%;
+} 
+}
+@media only screen and (max-width: 360px){
+    .left_copyright {
+       float: left;
+       top: 10px !important;
+}
+   .nav.nav-tabs.both_heading {
+       padding-left: 22% !important;
 }
 
-img{
-    max-width:100%;
 }
+@media only screen and (max-width: 640px){
+   .nav.nav-tabs.both_heading {
+       padding-left: 25% !important;
+}
+}
+
 
 
