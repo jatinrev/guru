@@ -14,7 +14,7 @@ body{ margin: 0; padding: 0 }
 
 
 /* header css */
-.header_bg{ background-image: url(../images/head.png); background-repeat: no-repeat; z-index: 999; position: relative; height:150px;}
+.header_bg{ background-image: url(../images/head.png); background-repeat: no-repeat; z-index: 999; position: relative; height:175px; background-size: 100%;}
 .header_search form input[type="text"]{ width:60%;background-image: url(../images/search_icon.png); background-repeat: no-repeat; border: 0; margin-top:18px;background-color: #494A4F; background-position: 15px center; padding-left: 50px; color:#fff  }
 .header_menus ul {
     /*margin: 0 35px;*/
@@ -30,7 +30,7 @@ body{ margin: 0; padding: 0 }
     color: #fff;
 }
 .banner_section {
-    margin-top: -160px;
+    margin-top: -173px;
 }
 .banner_section img{ width: 100%; }
 .banner_section img.banner-section-img{height:700px;}
@@ -104,7 +104,7 @@ body{ margin: 0; padding: 0 }
     padding: 0 !important;
 }
 .no-padding .nav .active > a {
-    padding: 20px 44px !important;
+    padding: 20px 42px !important;
     line-height: 30px;
 }
 .banner_content_cont.main-cont {
