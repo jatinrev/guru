@@ -4,8 +4,8 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
-import { MaterialModule } from '@angular/material';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AngularFireModule } from 'angularfire2';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
@@ -14,6 +14,14 @@ import { StudentListComponent } from './student-list/student-list.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { StudentDetailComponent } from './student-detail/student-detail.component';
 import { GuruManageClassComponent } from './guru-manage-class/guru-manage-class.component';
+
+// Must export the config
+export const firebaseConfig = {
+  apiKey: 'AIzaSyCEjjlqppI1xlB5CH3OOuDYd9ETLblbWs4',
+  authDomain: 'guru-a1851.firebaseapp.com',
+  databaseURL: 'https://guru-a1851.firebaseio.com',
+  storageBucket: 'guru-a1851.appspot.com'
+};
 
 @NgModule({
   declarations: [
@@ -31,7 +39,7 @@ import { GuruManageClassComponent } from './guru-manage-class/guru-manage-class.
     HttpModule,
     AlertModule,
     NgbModule.forRoot(),
-    MaterialModule.forRoot(),
+    AngularFireModule.initializeApp(firebaseConfig),
     RouterModule.forRoot([
       {
         path: '',

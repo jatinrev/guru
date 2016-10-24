@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
+import { AngularFire, FirebaseListObservable } from 'angularfire2';
 
 
 @Component({
@@ -9,9 +10,12 @@ import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 })
 export class AppComponent {
   title = 'app works!';
-
+  items: FirebaseListObservable<any[]>;
   closeResult: string;
-  constructor(private modalService: NgbModal) { }
+  constructor(private modalService: NgbModal, af: AngularFire) {
+    this.items = af.database.list('/0');
+    console.log(this.items);
+  }
 
   ngOnInit() {
     
