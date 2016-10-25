@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
+import {NgbModal, ModalDismissReasons, NgbModalRef} from '@ng-bootstrap/ng-bootstrap';
 import { AngularFire, FirebaseListObservable } from 'angularfire2';
 import {Observable} from 'rxjs/Observable';
 
@@ -44,6 +44,7 @@ export class AppComponent {
     console.log(this.userDetails);
     this.show_hide_variables.signup_step1 = false;
     if( !this.show_hide_variables.signup_step1 ) {
+      console.log( this.modalService );
     }
   }
 
