@@ -11,14 +11,25 @@ import {Observable} from 'rxjs/Observable';
 export class IndexComponent implements OnInit {
   items: FirebaseListObservable<any>;
 
-  constructor(af: AngularFire) {
-    let items = af.database.list('/list')
-      .map(i => {return i});
-      
-    items.forEach(i=>i.forEach(e=>(console.log(e))));
+  constructor(private af: AngularFire) {
+    this.temp1();
   }
 
   ngOnInit() {
+  }
+
+  temp1() {
+    let items = this.af.database.list('/list');
+    this.items = items;
+    console.log(items);
+    // items.forEach(i=>i.forEach(e=>(console.log(e))));
+  }
+
+  temp() {
+    let items = this.af.database.list('/list')
+      .map(i => {return i});
+    console.log(items);
+    items.forEach(i=>i.forEach(e=>(console.log(e))));
   }
 
 }
