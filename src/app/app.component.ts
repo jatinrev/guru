@@ -12,6 +12,10 @@ import {Observable} from 'rxjs/Observable';
 export class AppComponent {
   title = 'app works!';
   closeResult: string;
+  userDetails = {};
+  show_hide_variables = {
+    signup_step1 : true
+  };
   constructor(private modalService: NgbModal, af: AngularFire) {  }
 
   ngOnInit() {
@@ -35,4 +39,13 @@ export class AppComponent {
       return  `with: ${reason}`;
     }
   }
+
+  nextStep() {
+    console.log(this.userDetails);
+    this.show_hide_variables.signup_step1 = false;
+    if( !this.show_hide_variables.signup_step1 ) {
+    }
+  }
+
+
 }
