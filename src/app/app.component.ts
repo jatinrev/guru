@@ -13,6 +13,7 @@ export class AppComponent {
   title = 'app works!';
   closeResult: string;
   userDetails = {};
+  opened_model_obj;
   show_hide_variables = {
     signup_step1 : true
   };
@@ -23,28 +24,17 @@ export class AppComponent {
   }
 
   open(content) {
-    this.modalService.open(content).result.then((result) => {
-      this.closeResult = `Closed with: ${result}`;
-    }, (reason) => {
-      this.closeResult = `Dismissed ${this.getDismissReason(reason)}`;
-    });
-  }
-
-  private getDismissReason(reason: any): string {
-    if (reason === ModalDismissReasons.ESC) {
-      return 'by pressing ESC';
-    } else if (reason === ModalDismissReasons.BACKDROP_CLICK) {
-      return 'by clicking on a backdrop';
-    } else {
-      return  `with: ${reason}`;
-    }
+    this.opened_model_obj = this.modalService.open(content);
+    console.log( this.opened_model_obj );
   }
 
   nextStep() {
-    console.log(this.userDetails);
-    this.show_hide_variables.signup_step1 = false;
+    // console.log(this.userDetails);
     if( !this.show_hide_variables.signup_step1 ) {
-      console.log( this.modalService );
+      this.show_hide_variables.signup_step1 = true;
+      this.opened_model_obj.close();
+    } else {
+      this.show_hide_variables.signup_step1 = false;
     }
   }
 
