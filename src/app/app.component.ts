@@ -12,20 +12,21 @@ import {Observable} from 'rxjs/Observable';
 export class AppComponent {
   title = 'app works!';
   closeResult: string;
-  userDetails = {};
+  userDetails = {
+    email : '',
+    password : ''
+  };
   opened_model_obj;
   show_hide_variables = {
     signup_step1 : true
   };
-  constructor(private modalService: NgbModal, af: AngularFire) {  }
+  constructor(private modalService: NgbModal,public af: AngularFire) {  }
 
   ngOnInit() {
-    
   }
 
   open(content) {
     this.opened_model_obj = this.modalService.open(content);
-    console.log( this.opened_model_obj );
   }
 
   nextStep() {
@@ -38,5 +39,11 @@ export class AppComponent {
     }
   }
 
+  login_google() {
+    console.log(this.userDetails);
+    this.af.auth.login({ email: this.userDetails.email, password: this.userDetails.password });
+  }
+  login_facebook() {
 
+  }
 }

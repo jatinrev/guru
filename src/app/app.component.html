@@ -120,6 +120,10 @@
 			<!-- End : signup_step2 -->			
 			<div class="modal-footer bordernone">
 				<div class="col-md-12 col-xs-4 col-sm-12 next_step_btn">
+					<!-- Start : Google Facebook login buttons -->
+					<button (click)="login_google()">Google login</button>
+					<button (click)="login_facebook()">facebook login</button>
+					<!-- End : Google Facebook login buttons -->
 					<button type="button" class="btn btn-primary" (click)="nextStep()">{{ ( show_hide_variables.signup_step1 ? 'NEXT STEP':'DONE' ) }}</button>
 				</div>
 			</div>

@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule }   from '@angular/router';
 import { AlertModule } from 'ng2-bootstrap/ng2-bootstrap';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { AngularFireModule } from 'angularfire2';
+import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2';
 
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
@@ -21,6 +21,11 @@ export const firebaseConfig = {
   authDomain: 'guru-a1851.firebaseapp.com',
   databaseURL: 'https://guru-a1851.firebaseio.com',
   storageBucket: 'guru-a1851.appspot.com'
+};
+
+const myFirebaseAuthConfig = {
+  provider: AuthProviders.Password,
+  method: AuthMethods.Redirect
 };
 
 @NgModule({
@@ -39,7 +44,7 @@ export const firebaseConfig = {
     HttpModule,
     AlertModule,
     NgbModule.forRoot(),
-    AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireModule.initializeApp(firebaseConfig, myFirebaseAuthConfig),
     RouterModule.forRoot([
       {
         path: '',
