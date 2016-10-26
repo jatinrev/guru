@@ -80,13 +80,19 @@
 }
 
 /* social icon css */
+.social_icon_sec{
+    padding-left: 0;
+}
 .social_icon_sec ul {
-    padding-left: 5px;
+    background: #f6f6f6;
+    margin-right: 11px;
+    padding-left: 34px;
     padding-top: 6px;
+    margin-top: 5px;
 }
 .social_icon_sec ul li {
     display: inline;
-    padding: 0 32px;
+    padding: 0 38px;
 }
 .social_icon_sec ul li a {
     color: #D7D8DD;
@@ -131,6 +137,9 @@
     background: #fff;
     margin-top: 0;
     border: 1px solid #ccc;
+}
+.dnone{
+    border: none!important;
 }
 
 .radio .cr {

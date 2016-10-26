@@ -34,15 +34,16 @@
 }
 .three_tabs ul { 
     padding-left: 11%;
+    border:none !important;
 }
 .three_tabs ul li a{
-	border:none !important;
-	border-bottom: 1px solid #E0E0E0 !important;
+	border:none !important;	
 	font-size: 30px;
 	color: #bfbfbf;
 }
 .three_tabs li {
     padding: 0 40px;
+    border-bottom: 1px solid #E0E0E0; 
 }
 /* sort by css */
 .sort-by{

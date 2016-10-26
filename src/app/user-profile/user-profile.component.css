@@ -65,6 +65,8 @@
 }
 .hr_line hr{
 	border-color: #6868c5;
+    margin-left: 62px;
+    width: 94%;
 }
 .hr_line {
     padding-bottom: 30px;

@@ -51,14 +51,14 @@
 
 .start_end_date {
     background-color: #6868c5;
-    border: 1px solid;
+    
     height: 300px;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 .time_and_frequency {
     background-color: #6868c5;
-    border: 1px solid;
+   
     height: auto;
     padding-bottom: 30px;
 }
@@ -217,7 +217,7 @@ box-shadow: none;
 
 .location_map{
     background-color: #6868c5;
-    height: 567px;
+    height: 562px;
 }
 .location_map h3 {
     color: #fff;
@@ -258,6 +258,7 @@ box-shadow: none;
     width: auto !important;
     padding: 0 28px !important;
     margin: 5px 5px !important; 
+    border:none;
 }
 .bac_nex_btn{
     text-align: center;
