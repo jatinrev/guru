@@ -21,8 +21,6 @@ export class IndexComponent implements OnInit {
   temp1() {
     let items = this.af.database.list('/list');
     this.items = items;
-    console.log(items);
-    // items.forEach(i=>i.forEach(e=>(console.log(e))));
   }
 
   temp() {
