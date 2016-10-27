@@ -1,3 +1,4 @@
+<!-- Start : Desktop header -->
 <div class="all_pages_outr header_bg desk-header">
 	<div class="all_pages_inr">
 		<div class="all_pages_cont">
@@ -36,7 +37,7 @@
 									</a>
 									</li>
 									<li>
-									<a href="../navbar-static-top/">Register</a>
+									<a href="javascript:void(0)" (click)="open(content)">Register</a>
 									</li>
 									<li>
 									<a href="../navbar-fixed-top/">Login</a>
@@ -50,7 +51,9 @@
 		</div>
 	</div>
 </div>
+<!-- End : Desktop header -->
 
+<!-- Start : Mobile header -->
 <div class="all_pages_outr header_bg mobile-header">
 	<div class="all_pages_inr">
 		<div class="all_pages_cont">
@@ -86,14 +89,15 @@
 									<li><a href="javascript:void(0)" (click)="open(content)">Register</a></li>
 									<li><a href="javascript:void(0)">Login</a></li>					      
 								</ul>
+					  		</div>
 					  	</div>
-					  </div>
 					</nav>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+<!-- End : Mobile header -->
 
   	<router-outlet></router-outlet>
 
