@@ -30,16 +30,17 @@ export class AppComponent {
   }
 
   nextStep() {
-    // console.log(this.userDetails);
     if( !this.show_hide_variables.signup_step1 ) {
+      // "Done"
       this.show_hide_variables.signup_step1 = true;
       this.opened_model_obj.close();
     } else {
+      // "NEXT STEP"
       this.show_hide_variables.signup_step1 = false;
     }
   }
 
-  login_google() {
+  login_by_password() {
     console.log(this.userDetails);
     this.af.auth.createUser({
       email: this.userDetails.email,
@@ -55,8 +56,5 @@ export class AppComponent {
       }, function(err) {
         console.log('err', err);
       });*/
-  }
-  login_facebook() {
-
   }
 }
