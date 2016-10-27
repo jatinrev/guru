@@ -12,6 +12,7 @@
 					<a href="#"><img src="assets/images/logo.png"></a>
 					</div>-->
 				</div>
+
 				<div class="col-md-3 col-xs-5 col-sm-2 logo">
 					<a href="#"><img src="assets/images/blac_logo.png"></a>
 				</div>
@@ -82,8 +83,8 @@
 							<div class="collapse navbar-collapse paddingleftright no-padding" id="bs-example-navbar-collapse-1">				    
 								<ul class="nav navbar-nav">
 									<li class="active"><a href="javascript:void(0)">About Us<span class="sr-only">(current)</span></a></li>
-									<li><a href="javascript:void(0)">Register</a></li>
-									<li><a href="javascript:void(0)" (click)="open(content)">Login</a></li>					      
+									<li><a href="javascript:void(0)" (click)="open(content)">Register</a></li>
+									<li><a href="javascript:void(0)">Login</a></li>					      
 								</ul>
 					  	</div>
 					  </div>
@@ -96,61 +97,91 @@
 
   	<router-outlet></router-outlet>
 
-	<template ngbModalContainer></template>
+		<template ngbModalContainer></template>
 
-  <template #content let-c="close" let-d="dismiss">
-		<div class="modal-header modl_head">
-			<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
-			<span aria-hidden="true">&times;</span>
-			</button>
-			<h1 class="modl_welcm_txt">WELCOME</h1>
-		</div>
-		<div class="modal-body">
-		    <div class="col-md-12 col-xs-12 col-sm-12">
-		    	<img src="../assets/images/range_img.png" class="" alt="">  
-		    </div>
-			<div class="col-md-12 col-xs-12 col-sm-12 modl_full_width">
-				<form>
-				  <div class="form-group">				    
-				    <input type="text" class="form-control" id="user_name" placeholder="User Name">			    
-				  </div>
-				</form>  
+		<template #content let-c="close" let-d="dismiss">
+			<div class="modal-header modl_head">
+				<button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+				<span aria-hidden="true">&times;</span>
+				</button>
+				<h1 class="modl_welcm_txt">WELCOME</h1>
 			</div>
-			<div class="col-md-12 col-xs-12 col-sm-12">
-				<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width1">
-					<form>
-					  <div class="form-group paddingbotm">				    
-					    <input type="text" class="form-control" id="first_name" placeholder="First Name">
-					  </div>
-					  <div class="form-group paddingtop paddingbotm">				    
-					    <input type="text" class="form-control" id="E-mail" placeholder="E-mail">
-					  </div>
-					  <div class="form-group paddingtop paddingbotm">				    
-					    <input type="text" class="form-control" id="pwd" placeholder="Password">
-					  </div>					 
-				    </form>  
+			<!-- Start : signup_step1 -->
+			<div class="modal-body signup_step1" *ngIf="show_hide_variables.signup_step1">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<img src="../assets/images/range_img.png" class="width_100" alt="">  
 				</div>
-				<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width2">
-					<form>
-					  <div class="form-group paddingbotm">				    
-					    <input type="text" class="form-control" id="last_name" placeholder="Last Name">
-					  </div>
-					  <div class="form-group paddingtop paddingbotm">				    
-					    <input type="text" class="form-control" id="phone_number" placeholder="Phone Number">
-					  </div>
-					  <div class="form-group paddingtop paddingbotm">				    
-					    <input type="text" class="form-control" id="reenter_pwd" placeholder="Re-enter password">
-					  </div>					 
-				    </form>  
+				<div class="col-md-12 col-xs-12 col-sm-12 modl_full_width">
+					<div class="form-group">				    
+						<input type="text" class="form-control" id="user_name" [(ngModel)]="userDetails.username" [ngModelOptions]="{standalone: true}" placeholder="User Name">			    
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width1">
+							<div class="form-group paddingbotm">				    
+								<input type="text" class="form-control" id="first_name" [(ngModel)]="userDetails.firstname" [ngModelOptions]="{standalone: true}" placeholder="First Name">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="E-mail" [(ngModel)]="userDetails.email" [ngModelOptions]="{standalone: true}" placeholder="E-mail">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="pwd" [(ngModel)]="userDetails.password" [ngModelOptions]="{standalone: true}" placeholder="Password">
+							</div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width2">
+							<div class="form-group paddingbotm">				    
+								<input type="text" class="form-control" id="last_name" [(ngModel)]="userDetails.lastname" [ngModelOptions]="{standalone: true}" placeholder="Last Name">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="phone_number" [(ngModel)]="userDetails.phonenumber" [ngModelOptions]="{standalone: true}" placeholder="Phone Number">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="reenter_pwd" [(ngModel)]="userDetails.repassword" [ngModelOptions]="{standalone: true}" placeholder="Re-enter password">
+							</div>	
+					</div>
 				</div>
 			</div>
-		</div>
-		<div class="modal-footer bordernone">
-		    <div class="col-md-12 col-xs-4 col-sm-12 next_step_btn">
-			    <button type="button" class="btn btn-primary">NEXT STEP</button>
+			<!-- End : signup_step1 -->
+			<!-- Start : signup_step2 -->
+			<div class="modal-body signup_step2" *ngIf="!show_hide_variables.signup_step1">
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<img src="../assets/images/range_img.png" class="width_100" alt="">  
+				</div>
+				<div class="col-md-12 col-xs-12 col-sm-12">
+					<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width1">
+							<div class="form-group paddingbotm">				    
+								<input type="text" class="form-control" id="address1" [(ngModel)]="userDetails.address1" [ngModelOptions]="{standalone: true}" placeholder="Address line 01">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="city" [(ngModel)]="userDetails.city" [ngModelOptions]="{standalone: true}" placeholder="City">
+							</div>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-12 modl_half_width2">
+							<div class="form-group paddingbotm">				    
+								<input type="text" class="form-control" id="address2" [(ngModel)]="userDetails.address2" [ngModelOptions]="{standalone: true}" placeholder="Address line 02">
+							</div>
+							<div class="form-group paddingtop paddingbotm">				    
+								<input type="text" class="form-control" id="zipcode" [(ngModel)]="userDetails.zipcode" [ngModelOptions]="{standalone: true}" placeholder="Zip Code">
+							</div>
+					</div>
+				</div>
+				<div class="col-md-12 col-xs-12 col-sm-12 modl_full_width">
+					<div class="form-group">				    
+						<input type="checkbox" class="form-control" id="addressverify" placeholder=""> I agree to get my address verified			    
+					</div>
+				</div>
 			</div>
-		</div>
-	</template>
+			<!-- End : signup_step2 -->			
+			<div class="modal-footer bordernone">
+				<div class="col-md-12 col-xs-4 col-sm-12 next_step_btn">
+					<!-- Start : Google Facebook login buttons -->
+					<button (click)="login_google()">Google login</button>
+					<button (click)="login_facebook()">facebook login</button>
+					<!-- End : Google Facebook login buttons -->
+					<button type="button" class="btn btn-primary" (click)="nextStep()">{{ ( show_hide_variables.signup_step1 ? 'NEXT STEP':'DONE' ) }}</button>
+				</div>
+			</div>
+		</template>
 
 
 <div class="all_pages_outr footer_part">
