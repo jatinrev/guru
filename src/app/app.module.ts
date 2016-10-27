@@ -25,7 +25,7 @@ export const firebaseConfig = {
 
 const myFirebaseAuthConfig = {
   provider: AuthProviders.Password,
-  method: AuthMethods.Redirect
+  method: AuthMethods.Password
 };
 
 @NgModule({

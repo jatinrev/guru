@@ -41,7 +41,20 @@ export class AppComponent {
 
   login_google() {
     console.log(this.userDetails);
-    this.af.auth.login({ email: this.userDetails.email, password: this.userDetails.password });
+    this.af.auth.createUser({
+      email: this.userDetails.email,
+      password: this.userDetails.password
+    }).then(function(success) {
+      console.log(success);
+    }, function(err) {
+      console.log(err);
+    });
+    /*this.af.auth.login({ email: this.userDetails.email, password: this.userDetails.password })
+      .then(function(res) {
+        console.log('res', res);
+      }, function(err) {
+        console.log('err', err);
+      });*/
   }
   login_facebook() {
 
